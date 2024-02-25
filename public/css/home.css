@@ -2,7 +2,7 @@ body {
     background-color: #101720;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
     overflow: hidden;
@@ -58,7 +58,7 @@ body {
         #11e658,
         #1fc79d
     );
-    right: -30px;
+    right: -80px;
     bottom: -80px;
 }
 
