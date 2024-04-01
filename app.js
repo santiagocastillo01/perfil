@@ -13,9 +13,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Rutas para renderizar las vistas EJS
-app.get('/', (req, res) => {
-    res.render('index');
-});
 
 app.get('/contacto', (req, res) => {
     res.render('contacto');
@@ -25,7 +22,7 @@ app.get('/perfil', (req, res) => {
     res.render('perfil');
 });
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.render('home');
 });
 // Iniciar el servidor
