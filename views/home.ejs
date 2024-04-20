@@ -12,7 +12,11 @@
   </head>
   <body>
     <header><%- include('./header.ejs') %></header>
+    
+    
     <!-- INTRODUCCIÓN---------- -->
+    
+    
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hola, soy <span>Santiago Castillo</span></h1>
@@ -42,7 +46,11 @@
         ></a>
       </div>
     </section>
+   
+   
     <!-- SOBRE MÍ-------------- -->
+   
+   
     <section class="about" id="about">
       <h2 class="heading">Sobre <span>Mì</span></h2>
 
@@ -65,7 +73,11 @@
         </div>
       </div>
     </section>
+   
+   
     <!-- EDUCACIÓN--------------  -->
+   
+   
     <section class="education" id="education">
       <h2 class="heading">Mi <span>Trayectoria</span></h2>
 
@@ -166,44 +178,127 @@
       </div>
     </section>
 
+    
     <!--     HABILIDADES------ -->
+    
+    
     <section class="skills" id="skills">
       <h2 class="heading">Mis <span>Habilidades</span></h2>
       <div class="skills-row">
         <div class="skills-column">
-          <h3 class="title">Coding Skills</h3>
+          <h3 class="title"></h3>
 
           <div class="skills-box">
             <div class="skills-content">
+              
+              <!-- 1 -->
               <div class="progress">
                 <h3>HTML <span>90%</span></h3>
                 <div class="bar"><span></span></div>
               </div>
 
+              <!-- 2 -->
               <div class="progress">
-                <h3>CSS <span>80%</span></h3>
+                <h3>CSS <span>85%</span></h3>
                 <div class="bar"><span></span></div>
               </div>
 
+              <!-- 3 -->
               <div class="progress">
-                <h3>GITHUB <span>90%</span></h3>
+                <h3>JavaScript <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+              </div> 
+              
+              <!-- 4 -->
+              <div class="progress">
+                <h3>Python (En progreso...) <span>&#8593; 20%</span></h3>
                 <div class="bar"><span></span></div>
               </div>
 
+              <!-- 5 -->
               <div class="progress">
-                <h3>HTML <span>90%</span></h3>
+                <h3>Node <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <!-- 6 -->
+              <div class="progress">
+                <h3>React <span>60%</span></h3>
                 <div class="bar"><span></span></div>
               </div>
               
+              <!-- 7 -->
               <div class="progress">
-                <h3>HTML <span>90%</span></h3>
+                <h3>Ejs <span>80%</span></h3>
                 <div class="bar"><span></span></div>
               </div>
+
+              <!-- 8 -->
+              <div class="progress">
+                <h3>MySql <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <!-- 9 -->
+              <div class="progress">
+                <h3>phpMyAdmin <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+               
+              
+              <!-- 10 -->
+              <div class="progress">
+                <h3>GitHub <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+             
+            
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- 44:14 -->
+
+
+    <!--     Contacto--------------------------- -->
+
+
+    <section class="contact" id="contact">
+      <h2 class="heading">¿Quieres <span>contactarme</span>?</h2>
+      
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Nombre" required>
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email" required>
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Numero de contacto" required>
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Asunto del correo electrónico" required>
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+<!--   footer 1:01:17 -->
   </body>
 </html>
